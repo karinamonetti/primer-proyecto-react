@@ -1,9 +1,13 @@
-function Home (text) {
+import "../home/style.css"
+
+function Home ({text, onClick}) {
 
     return(
 
-        <button>{text}</button>
-
+        <div className="flex">
+            <button onClick={onClick} className="myButton">{text}</button>
+        </div>
+       
     )
 
 }

@@ -5,7 +5,7 @@ function App() {
   return (
     <>
 
-      <Home/>
+      <Home text="Ir al juego" onClick={() => alert("Me hiciste click")}/>
 
     </>
   );
